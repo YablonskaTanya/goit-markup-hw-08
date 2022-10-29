@@ -1,0 +1,29 @@
+.social-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.social-box__list {
+  display: flex;
+  gap: 10px;
+}
+
+.social-box__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: $grey-color-icon;
+  transition: background-color 250ms $cubic-brizer, fill 250ms $cubic-brizer;
+
+  &:hover,
+  &:focus {
+    fill: $white-color-icon;
+    background-color: $accent-text-color;
+  }
+}

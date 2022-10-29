@@ -1,0 +1,21 @@
+.hero__button {
+  padding: 10px 32px;
+  margin-top: 30px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  font-family: inherit;
+  border-radius: 4px;
+  border-color: transparent;
+  color: $white-text-color;
+  background-color: $button-accent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms $cubic-brizer;
+
+  &:hover,
+  &:focus {
+    background-color: $button-hover;
+  }
+}

@@ -1,0 +1,27 @@
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$accent-text-color: #2196f3;
+$white-text-color: #ffffff;
+$black-text-color: #000000;
+$white-text-rgba: rgba(255, 255, 255, 0.6);
+$primary-bg-color: #f5f5f5;
+$secondary-bg-color: #f5f4fa;
+$white-bg-color: #ffffff;
+$hero-bg-color: #c4c4c4;
+$accent-bg-color: #2f303a;
+$button-bg-color: #f5f4fa;
+$button-accent: #2196f3;
+$button-hover: #188ce8;
+$grey-color-icon: #afb1b8;
+$white-color-icon: #ffffff;
+$hover-color-icon: #2196f3;
+$rgba-bg-color: rgba(47, 48, 58, 0.8);
+$modal-bg-color: rgba(0, 0, 0, 0.2);
+$cubic-brizer: cubic-bezier(0.4, 0, 0.2, 1);
+
+body {
+  color: $primary-text-color;
+  background-color: $white-bg-color;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.03em;
+}

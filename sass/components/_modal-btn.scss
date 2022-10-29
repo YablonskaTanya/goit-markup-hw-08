@@ -1,0 +1,21 @@
+.button-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button-close:hover .icon-close-modal,
+.button-close:focus .icon-close-modal {
+  fill: $accent-text-color;
+}
+
+.button-close__icon {
+  fill: $black-text-color;
+  transition: fill 250ms $cubic-brizer;
+}
