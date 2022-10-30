@@ -2,30 +2,36 @@
   background-color: var(--hero-bg-color);
   text-align: center;
 
-  // padding-top: 200px;
-  // padding-bottom: 200px;
-
   @media screen and(min-width:480px) {
     padding-top: 118px;
     padding-bottom: 118px;
+  }
+
+  @media screen and(min-width:1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 }
 
 .hero__title {
   color: $white-text-color;
   font-weight: 900;
-  // font-size: 44px;
-  // line-height: 1.36;
+
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  // max-width: 693px;
   margin: 0 auto;
 
   @media screen and(min-width:480px) {
     max-width: 360px;
     font-size: 26px;
     line-height: 1.6;
+  }
+
+  @media screen and(min-width:1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 693px;
   }
 }
 
