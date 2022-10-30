@@ -1,8 +1,8 @@
-// .checkbox {
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-// }
+.checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .checkbox__icon {
   display: inline-block;
@@ -28,12 +28,12 @@
   cursor: pointer;
 
   @media screen and(min-width:480px) {
-    top: 0;
-    left: 1px;
+    top: 1px;
+    left: 5px;
   }
   @media screen and(min-width:1200px) {
-    top: 2px;
-    left: 14px;
+    top: 4px;
+    left: 18px;
   }
 }
 
