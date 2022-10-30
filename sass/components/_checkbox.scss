@@ -1,10 +1,8 @@
-.checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  line-height: 1.7;
-}
+// .checkbox {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
 
 .checkbox__icon {
   display: inline-block;
@@ -25,16 +23,32 @@
 
 .checkbox__icon--check {
   position: absolute;
-  top: 4px;
-  left: 18px;
+
   fill: white;
   cursor: pointer;
+
+  @media screen and(min-width:480px) {
+    top: 0;
+    left: 1px;
+  }
+  @media screen and(min-width:1200px) {
+    top: 2px;
+    left: 14px;
+  }
 }
 
 .checkbox__text {
-  font-size: 14px;
-  line-height: 1.7;
   color: $secondary-text-color;
+
+  @media screen and(min-width:480px) {
+    font-size: 12px;
+    line-height: 1.17;
+  }
+
+  @media screen and(min-width:1200px) {
+    font-size: 14px;
+    line-height: 1.7;
+  }
 }
 
 .checkbox__text--link {

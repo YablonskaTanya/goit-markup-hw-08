@@ -1,14 +1,54 @@
 .portfolio__list {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-bottom: 50px;
+  @media screen and(min-width:480px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media screen and(min-width:768px) {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+
+  @media screen and(min-width:1200px) {
+    margin-bottom: 50px;
+  }
+}
+
+.portfolio__iteam:nth-child(1),
+.portfolio__iteam:nth-child(2),
+.portfolio__iteam:nth-child(4) {
+  @media screen and(min-width:480px) and(max-width:767px) {
+    margin-right: 8px;
+  }
+}
+.portfolio__iteam:nth-last-child(-n + 2) {
+  @media screen and(min-width:480px) and(max-width:767px) {
+    margin-top: 15px;
+  }
+}
+
+.portfolio-card__item {
+  @media screen and(min-width:480px) {
+    width: 450px;
+  }
+  @media screen and(min-width:768px) {
+    width: 354px;
+  }
+
+  @media screen and(min-width:1200px) {
+    width: 370px;
+  }
 }
 
 .portfolio-card {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  @media screen and(min-width:480px) {
+  }
+  @media screen and(min-width:1200px) {
+  }
 }
 
 .portfolio-card__link {
@@ -30,6 +70,11 @@
   border-bottom: 1px solid #eeeeee;
 }
 
+.box-card--padding {
+  @media screen and(min-width:768px) and(max-width:1199px) {
+    padding-bottom: 56px;
+  }
+}
 .portfolio-card__title {
   color: $primary-text-color;
   font-weight: 700;

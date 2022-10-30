@@ -1,23 +1,45 @@
 .communications {
-  display: flex;
-  gap: 30px;
-  margin-left: auto;
   align-items: center;
+
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 93px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    gap: 30px;
+    margin-left: auto;
+    align-items: center;
+  }
 }
 
 .communications__link {
-  display: flex;
-  align-items: center;
-
   padding-top: 32px;
   padding-bottom: 32px;
   text-decoration: none;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+
   letter-spacing: 0.02em;
   color: $secondary-text-color;
   transition: color 250ms $cubic-brizer;
+
+  @media screen and (min-width: 768px) {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.16;
+  }
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 1.14;
+  }
 
   &:hover,
   &:focus {
@@ -27,5 +49,9 @@
 
 .communications__icon {
   fill: currentColor;
-  margin-right: 10px;
+  // margin-right: 10px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 8px;
+  }
 }

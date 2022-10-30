@@ -1,14 +1,14 @@
 .client__list {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 50px;
-  gap: 30px;
+  @media screen and (min-width: 480px) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
 }
 
 .client__link {
   display: flex;
-  width: 170px;
-  height: 92px;
   justify-content: center;
   align-items: center;
   border: 1px solid #afb1b8;
@@ -16,6 +16,20 @@
   color: $grey-color-icon;
   fill: currentColor;
   transition: border-color 250ms $cubic-brizer, fill 250ms $cubic-brizer;
+
+  @media screen and (min-width: 480px) {
+    width: 210px;
+    height: 92px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 226px;
+    height: 92px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+    height: 92px;
+  }
 
   &:hover,
   &:focus {

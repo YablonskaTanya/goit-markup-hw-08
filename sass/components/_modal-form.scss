@@ -11,9 +11,21 @@
 .modal-form {
   display: flex;
   flex-direction: column;
-  width: 448px;
+
   margin-left: auto;
   margin-right: auto;
+
+  @media screen and(min-width:480px) {
+    width: 370px;
+  }
+
+  @media screen and(min-width:1200px) {
+    width: 448px;
+  }
+}
+
+.modal-form__item + .modal-form__item {
+  margin-top: 10px;
 }
 
 .modal-form__item {
@@ -24,10 +36,6 @@
   &:last-child {
     margin-top: 20px;
   }
-}
-
-.modal-form__item + .modal-form__item {
-  margin-top: 10px;
 }
 
 .modal-form__label {
@@ -50,12 +58,19 @@
 
 .modal-form__input {
   padding: 12px 42px;
-  width: 448px;
-  height: 40px;
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   transition: border 250ms $cubic-brizer;
+
+  @media screen and(min-width:480px) {
+    width: 370px;
+  }
+
+  @media screen and(min-width:1200px) {
+    width: 448px;
+    height: 40px;
+  }
 
   &:hover,
   &:focus {
