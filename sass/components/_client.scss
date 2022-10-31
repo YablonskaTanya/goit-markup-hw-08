@@ -1,9 +1,11 @@
 .client__list {
-  @media screen and (min-width: 480px) {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+
+  @media screen and (min-width: 1200px) {
+    margin-top: 50px;
   }
 }
 
@@ -11,6 +13,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: auto;
+  height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: $grey-color-icon;
@@ -19,16 +23,14 @@
 
   @media screen and (min-width: 480px) {
     width: 210px;
-    height: 92px;
   }
+
   @media screen and (min-width: 768px) {
     width: 226px;
-    height: 92px;
   }
 
   @media screen and (min-width: 1200px) {
     width: 170px;
-    height: 92px;
   }
 
   &:hover,

@@ -12,26 +12,6 @@
   }
 }
 
-.button-menu {
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-}
-
-// .button-menu .button-menu__icon--close {
-//   display: none;
-// }
-
-// .button-menu.is-open .button-menu__icon--close {
-//   display: block;
-// }
-
-// .button-menu.is-open .button-menu__icon--open {
-//   display: none;
-// }
-
 .site-nav {
   display: flex;
 
@@ -39,22 +19,6 @@
     display: none;
   }
 }
-
-.menu-container {
-  display: none;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  padding: 20px;
-  text-align: center;
-  background-color: yellow;
-
-  &is-open {
-    display: block;
-  }
-}
-
 .site-nav__link {
   display: flex;
   align-items: center;

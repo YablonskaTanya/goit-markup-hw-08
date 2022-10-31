@@ -32,20 +32,18 @@
   background: #f5f4fa;
   border-radius: 4px;
   margin-bottom: 30px;
+  height: 120px;
 
   @media screen and (min-width: 480px) {
     width: 450px;
-    height: 120px;
   }
 
   @media screen and (min-width: 768px) {
     width: 354px;
-    height: 120px;
   }
 
   @media screen and (min-width: 1200px) {
     width: 270px;
-    height: 120px;
   }
 }
 
@@ -55,7 +53,7 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  @media screen and (min-width: 480px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     text-align: center;
   }
 }

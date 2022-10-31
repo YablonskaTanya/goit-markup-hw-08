@@ -7,6 +7,7 @@
   background-color: $modal-bg-color;
   opacity: 1;
   transition: opacity 250ms $cubic-brizer;
+  overflow-y: scroll;
 }
 
 .backdrop.is-hidden {

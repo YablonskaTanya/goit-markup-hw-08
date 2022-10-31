@@ -1,0 +1,37 @@
+// .button-menu {
+//   display: inline-flex;
+//   margin: 0;
+//   padding: 0;
+//   border: none;
+//   background-color: transparent;
+// }
+
+// .button-menu .button-menu__icon--cross {
+//   display: none;
+// }
+
+// .button-menu.is-open .button-menu__icon--cross {
+//   display: block;
+// }
+
+// .button-menu.is-open .button-menu__icon--menu {
+//   display: none;
+// }
+
+// .menu-container {
+//   display: none;
+//   position: absolute;
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   width: 100vw;
+//   height: 100vh;
+//   padding: 48px 40px;
+//   background-color: rgb(0, 251, 255, 0.5);
+
+//   &is-open {
+//     display: block;
+//   }
+// }

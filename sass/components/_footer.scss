@@ -5,18 +5,16 @@
 }
 
 .footer-container {
-  @media screen and(min-width:480px) {
-    display: flex;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-wrap: wrap;
 
-  @media screen and(min-width:480px) and(max-width:1199px) {
+  @media screen and (max-width: 1199px) {
+    gap: 60px;
     text-align: center;
   }
 
-  @media screen and(min-width:480px) and(max-width:767px) {
+  @media screen and(max-width:767px) {
     flex-direction: column;
-    gap: 60px;
   }
 
   @media screen and(min-width:768px) and(max-width:1199px) {
@@ -28,4 +26,8 @@
     display: flex;
     align-items: baseline;
   }
+}
+
+.footer-container__logo {
+  text-align: center;
 }

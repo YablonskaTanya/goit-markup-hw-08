@@ -23,25 +23,6 @@
         </a>
 
         <nav class="nav">
-          <button
-            class="button-menu js-open-menu"
-            aria-expanded="false"
-            aria-controls="mobile-menu"
-            type="button"
-          >
-            <svg
-              class=""
-              width="40"
-              height="40"
-              aria-label="Перемикач мобільного меню"
-            >
-              <use
-                class="button-menu__icon button-menu__icon--open"
-                href="./images/sprite.svg#menu"
-              ></use>
-            </svg>
-          </button>
-
           <ul class="site-nav">
             <li class="site-nav__item">
               <a
@@ -60,6 +41,7 @@
             </li>
           </ul>
         </nav>
+
         <ul class="communications">
           <li class="communications__item">
             <a class="communications__link" href="mailto:info@devstudio.com"
@@ -77,6 +59,45 @@
             >
           </li>
         </ul>
+
+        <!-- <div
+          class="menu-container js-menu-container'"
+          id="menu-container"
+          js-menu-container
+        >
+          <ul class="social-menu">
+            <li class="social-menu__iteam">
+              <a class="social-menu__link" href="#">Instagram</a>
+            </li>
+            <li class="social-menu__iteam">
+              <a class="social-menu__link" href="#">Twitter</a>
+            </li>
+            <li class="social-menu__iteam">
+              <a class="social-menu__link" href="#">Facebook</a>
+            </li>
+            <li class="social-menu__iteam">
+              <a class="social-menu__link" href="#">LinkedIn</a>
+            </li>
+          </ul>
+        </div> -->
+
+        <!-- <button
+          type="button"
+          class="button-menu is-open js-open-menu"
+          aria-expanded="false"
+          aria-controls="menu-container"
+        >
+          <svg width="40" height="40" aria-label="Перемикач мобільного меню">
+            <use
+              class="button-menu__icon button-menu__icon--menu js-open-menu"
+              href="./images/sprite.svg#menu"
+            ></use>
+            <use
+              class="button-menu__icon button-menu__icon--cross js-close-menu"
+              href="./images/sprite.svg#cross"
+            ></use>
+          </svg>
+        </button> -->
       </div>
     </header>
 
@@ -414,7 +435,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container footer-container">
-        <div>
+        <div class="footer-container__logo">
           <a class="logo" href="./index.html"
             >Web<span class="logo__text logo__text--inverse">Studio</span></a
           >
@@ -592,24 +613,7 @@
       </div>
     </div>
 
-    <!-- menu -->
-
-    <div>
-      <button class="button-menu js-close-menu" type="button">
-        <svg
-          class=""
-          width="40"
-          height="40"
-          aria-label="Перемикач мобільного меню"
-        >
-          <use
-            class="button-menu__icon button-menu__icon--close"
-            href="./images/sprite.svg#close-menu"
-          ></use>
-        </svg>
-      </button>
-      <div class="menu-container js-menu-container" id="mobile-menu">Menu</div>
-    </div>
+    <!-- momile menu -->
 
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>

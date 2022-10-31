@@ -26,6 +26,8 @@
 
   fill: white;
   cursor: pointer;
+  top: 10px;
+  left: -1px;
 
   @media screen and(min-width:480px) {
     top: 1px;
@@ -39,11 +41,8 @@
 
 .checkbox__text {
   color: $secondary-text-color;
-
-  @media screen and(min-width:480px) {
-    font-size: 12px;
-    line-height: 1.17;
-  }
+  font-size: 12px;
+  line-height: 1.17;
 
   @media screen and(min-width:1200px) {
     font-size: 14px;

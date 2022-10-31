@@ -21,7 +21,7 @@ img {
 }
 
 .container {
-  width: 1200px;
+  // width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -40,10 +40,8 @@ img {
 }
 
 .section {
-  @media screen and (min-width: 480px) {
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
+  padding-top: 60px;
+  padding-bottom: 60px;
 
   @media screen and (min-width: 1200px) {
     padding-top: 94px;
@@ -54,11 +52,8 @@ img {
 .title {
   font-weight: 700;
   text-align: center;
-
-  @media screen and (min-width: 480px) {
-    font-size: 28px;
-    line-height: 1.18;
-  }
+  font-size: 28px;
+  line-height: 1.18;
 
   @media screen and (min-width: 1200px) {
     font-size: 36px;
