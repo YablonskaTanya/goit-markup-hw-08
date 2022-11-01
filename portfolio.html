@@ -88,7 +88,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img src="./images/techno.jpg" alt="Технокряк" width="370" />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/techno-450.webp    450w,
+                        ./images/Portfolio/techno-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/techno-450.jpg    450w,
+                        ./images/Portfolio/techno-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/techno-354.webp    354w,
+                        ./images/Portfolio/techno-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/techno-354.jpg    354w,
+                        ./images/Portfolio/techno-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/techno-370.webp    370w,
+                        ./images/Portfolio/techno-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/techno-370.jpg    370w,
+                        ./images/Portfolio/techno-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/techno-370.jpg    370w,
+                        ./images/Portfolio/techno-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/techno-270.jpg"
+                      alt="Технокряк"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -105,11 +186,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img
-                    src="./images/poster.jpg"
-                    alt="Постер New Orlean vs Golden Star"
-                    width="370"
-                  />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/poster-450.webp    450w,
+                        ./images/Portfolio/poster-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/poster-450.jpg    450w,
+                        ./images/Portfolio/poster-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/poster-354.webp    354w,
+                        ./images/Portfolio/poster-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/poster-354.jpg    354w,
+                        ./images/Portfolio/poster-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/poster-370.webp    370w,
+                        ./images/Portfolio/poster-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/poster-370.jpg    370w,
+                        ./images/Portfolio/poster-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/poster-370.jpg    370w,
+                        ./images/Portfolio/poster-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/poster-270.jpg"
+                      alt="Постер New Orlean vs Golden Star"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -128,11 +286,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img
-                    src="./images/restourant.jpg"
-                    alt="Ресторан Seafood"
-                    width="370"
-                  />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/restaurant-450.webp    450w,
+                        ./images/Portfolio/restaurant-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/restaurant-450.jpg    450w,
+                        ./images/Portfolio/restaurant-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/restaurant-354.webp    354w,
+                        ./images/Portfolio/restaurant-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/restaurant-354.jpg    354w,
+                        ./images/Portfolio/restaurant-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/restaurant-370.webp    370w,
+                        ./images/Portfolio/restaurant-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/restaurant-370.jpg    370w,
+                        ./images/Portfolio/restaurant-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/restaurant-370.jpg    370w,
+                        ./images/Portfolio/restaurant-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/restaurant-270.jpg"
+                      alt="Ресторан Seafood"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -151,11 +386,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img
-                    src="./images/prime.jpg"
-                    alt="Проєкт Prime"
-                    width="370"
-                  />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/prime-450.webp    450w,
+                        ./images/Portfolio/prime-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/prime-450.jpg    450w,
+                        ./images/Portfolio/prime-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/prime-354.webp    354w,
+                        ./images/Portfolio/prime-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/prime-354.jpg    354w,
+                        ./images/Portfolio/prime-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/prime-370.webp    370w,
+                        ./images/Portfolio/prime-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/prime-370.jpg    370w,
+                        ./images/Portfolio/prime-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/prime-370.jpg    370w,
+                        ./images/Portfolio/prime-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/prime-270.jpg"
+                      alt="Проєкт Prime"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -174,7 +486,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img src="./images/boxes.jpg" alt="Проєкт Boxe" width="370" />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/boxes-450.webp    450w,
+                        ./images/Portfolio/boxes-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/boxes-450.jpg    450w,
+                        ./images/Portfolio/boxes-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/boxes-354.webp    354w,
+                        ./images/Portfolio/boxes-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/boxes-354.jpg    354w,
+                        ./images/Portfolio/boxes-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/boxes-370.webp    370w,
+                        ./images/Portfolio/boxes-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/boxes-370.jpg    370w,
+                        ./images/Portfolio/boxes-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/boxes-370.jpg    370w,
+                        ./images/Portfolio/boxes-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/boxes-270.jpg"
+                      alt="Проєкт Boxes"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -193,11 +586,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img
-                    src="./images/inspiration.jpg"
-                    alt="Inspiration has no Borders"
-                    width="370"
-                  />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/inspiration-450.webp    450w,
+                        ./images/Portfolio/inspiration-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/inspiration-450.jpg    450w,
+                        ./images/Portfolio/inspiration-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/inspiration-354.webp    354w,
+                        ./images/Portfolio/inspiration-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/inspiration-354.jpg    354w,
+                        ./images/Portfolio/inspiration-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/inspiration-370.webp    370w,
+                        ./images/Portfolio/inspiration-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/inspiration-370.jpg    370w,
+                        ./images/Portfolio/inspiration-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/inspiration-370.jpg    370w,
+                        ./images/Portfolio/inspiration-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/inspiration-270.jpg"
+                      alt="Inspiration has no Borders"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -216,11 +686,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img
-                    src="./images/magazin.jpg"
-                    alt="Видання Limited Edition"
-                    width="370"
-                  />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/magazin-450.webp    450w,
+                        ./images/Portfolio/magazin-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/magazin-450.jpg    450w,
+                        ./images/Portfolio/magazin-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/magazin-354.webp    354w,
+                        ./images/Portfolio/magazin-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/magazin-354.jpg    354w,
+                        ./images/Portfolio/magazin-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/magazin-370.webp    370w,
+                        ./images/Portfolio/magazin-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/magazin-370.jpg    370w,
+                        ./images/Portfolio/magazin-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/magazin-370.jpg    370w,
+                        ./images/Portfolio/magazin-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/magazin-270.jpg"
+                      alt="Видання Limited Edition"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -239,7 +786,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img src="./images/lab.jpg" alt="Проєкт LAB" width="370" />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/lab-450.webp    450w,
+                        ./images/Portfolio/lab-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/lab-450.jpg    450w,
+                        ./images/Portfolio/lab-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/lab-354.webp    354w,
+                        ./images/Portfolio/lab-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/lab-354.jpg    354w,
+                        ./images/Portfolio/lab-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/lab-370.webp    370w,
+                        ./images/Portfolio/lab-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/lab-370.jpg    370w,
+                        ./images/Portfolio/lab-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/lab-370.jpg    370w,
+                        ./images/Portfolio/lab-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/lab-270.jpg"
+                      alt="Проєкт LAB"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
@@ -258,11 +886,88 @@
             <li class="portfolio-card__item">
               <a class="portfolio-card__link" href="#">
                 <div class="overlay-card">
-                  <img
-                    src="./images/busines.jpg"
-                    alt="Growing Business"
-                    width="370"
-                  />
+                  <picture>
+                    <!-- mobile -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/busines-450.webp    450w,
+                        ./images/Portfolio/busines-450@2x.webp 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/busines-450.jpg    450w,
+                        ./images/Portfolio/busines-450@2x.ipg 900w
+                      "
+                      media="screen and (max-width:767px)"
+                      sizes="(max-width:767px) 100vw"
+                    />
+
+                    <!-- tablet -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/busines-354.webp    354w,
+                        ./images/Portfolio/busines-354@2x.webp 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw"
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/busines-354.jpg    354w,
+                        ./images/Portfolio/busines-354@2x.ipg 708w
+                      "
+                      media="screen and (max-width:1199px)"
+                      sizes="(min-width: 768px) 50vw, 100vw"
+                    />
+
+                    <!-- desktop -->
+
+                    <source
+                      type="image/webp"
+                      srcset="
+                        ./images/Portfolio/busines-370.webp    370w,
+                        ./images/Portfolio/busines-370@2x.webp 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                    <source
+                      type="image/jpg"
+                      srcset="
+                        ./images/Portfolio/busines-370.jpg    370w,
+                        ./images/Portfolio/busines-370@2x.ipg 740w
+                      "
+                      media="screen and (min-width:1200px)"
+                      sizes="(min-width: 1200px) 33w"
+                    />
+
+                    <img
+                      class="card-image"
+                      srcset="
+                        ./images/Portfolio/busines-370.jpg    370w,
+                        ./images/Portfolio/busines-370@2x.jpg 740w
+                      "
+                      src="./images/Portfolio/busines-270.jpg"
+                      alt="Growing Business"
+                      sizes="
+                      (min-width: 1200px) 33vw,
+                      (min-width: 768px) 50vw, 100vw
+                      "
+                    />
+                  </picture>
+
                   <p class="overlay-card__text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
                     функціоналу та сервісів. Все це дозволить відвідувачу
