@@ -342,6 +342,13 @@ img {
           align-items: center;
   position: relative;
 }
+@media screen and (max-width: 767px) {
+  .header-container {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 
 .logo {
   color: #2196f3;
@@ -592,57 +599,6 @@ img {
 
 .social-menu__iteam + .social-menu__iteam {
   border-left: 1px solid rgba(33, 33, 33, 0.2);
-}
-
-.button-menu {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-color: transparent;
-}
-
-.button-menu .icon-cross {
-  display: none;
-}
-
-.button-menu.is-open .icon-cross {
-  display: block;
-}
-
-.button-menu.is-open .icon-menu {
-  display: none;
-}
-
-.menu-container {
-  position: absolute;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100vw;
-  height: 100vh;
-  padding: 48px 40px;
-  background: #ffffff;
-  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-}
-.menu-containeris-open {
-  display: block;
-}
-@media screen and (min-width: 768px) {
-  .menu-container {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .menu-container__contacts {
-    margin-top: 302px;
-  }
 }
 
 .hero {
