@@ -1,37 +1,51 @@
-// .button-menu {
-//   display: inline-flex;
-//   margin: 0;
-//   padding: 0;
-//   border: none;
-//   background-color: transparent;
-// }
+.button-menu {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
 
-// .button-menu .button-menu__icon--cross {
-//   display: none;
-// }
+.button-menu .icon-cross {
+  display: none;
+}
 
-// .button-menu.is-open .button-menu__icon--cross {
-//   display: block;
-// }
+.button-menu.is-open .icon-cross {
+  display: block;
+}
 
-// .button-menu.is-open .button-menu__icon--menu {
-//   display: none;
-// }
+.button-menu.is-open .icon-menu {
+  display: none;
+}
 
-// .menu-container {
-//   display: none;
-//   position: absolute;
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   bottom: 0;
-//   width: 100vw;
-//   height: 100vh;
-//   padding: 48px 40px;
-//   background-color: rgb(0, 251, 255, 0.5);
+.menu-container {
+  //   display: flex;
+  //   display: none;
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 48px 40px;
+  //   background-color: rgb(0, 251, 255, 0.5);
+  background: $white-bg-color;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
+    0px 1px 3px rgba(0, 0, 0, 0.16);
 
-//   &is-open {
-//     display: block;
-//   }
-// }
+  &is-open {
+    display: block;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.menu-container__contacts {
+  @media screen and (max-width: 767px) {
+    margin-top: 302px;
+  }
+}

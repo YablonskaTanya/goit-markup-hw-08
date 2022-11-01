@@ -2,7 +2,11 @@
   align-items: center;
 
   @media screen and (max-width: 767px) {
-    display: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 32px;
   }
 
   @media screen and (min-width: 768px) {
@@ -20,16 +24,18 @@
 }
 
 .communications__link {
-  padding-top: 32px;
-  padding-bottom: 32px;
   text-decoration: none;
-  font-weight: 500;
 
-  letter-spacing: 0.02em;
   color: $secondary-text-color;
   transition: color 250ms $cubic-brizer;
 
   @media screen and (min-width: 768px) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    font-weight: 500;
+
+    letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.16;
@@ -51,7 +57,33 @@
   fill: currentColor;
   // margin-right: 10px;
 
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+
   @media screen and (min-width: 768px) {
     margin-right: 8px;
+  }
+}
+
+.communications__link--color {
+  @media screen and (max-width: 767px) {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
+
+    color: $accent-text-color;
+  }
+}
+
+.communications__link--size {
+  @media screen and (max-width: 767px) {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+
+    color: #757575;
   }
 }
