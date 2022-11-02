@@ -3,7 +3,6 @@
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
-
   color: $primary-text-color;
   margin-bottom: 12px;
 
@@ -17,7 +16,6 @@
 .modal-form {
   display: flex;
   flex-direction: column;
-
   margin-left: auto;
   margin-right: auto;
 
@@ -83,6 +81,7 @@
     border-color: $accent-text-color;
   }
 }
+
 .modal-form__input:hover + .modal-form__icon,
 .modal-form__input:focus + .modal-form__icon {
   color: $accent-text-color;

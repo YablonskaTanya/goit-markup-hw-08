@@ -1,5 +1,4 @@
 .portfolio__list {
-  margin-bottom: 40px;
   display: flex;
   flex-wrap: wrap;
 
@@ -49,7 +48,9 @@
 }
 
 .portfolio-card__link {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   transition: box-shadow 250ms $cubic-brizer;
   text-decoration: none;
 
@@ -61,17 +62,13 @@
 }
 
 .box-card {
+  flex-grow: 1;
   padding: 20px 24px;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.box-card--padding {
-  @media screen and(min-width:768px) and(max-width:1199px) {
-    padding-bottom: 56px;
-  }
-}
 .portfolio-card__title {
   color: $primary-text-color;
   font-weight: 700;

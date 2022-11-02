@@ -1,4 +1,5 @@
-.button-menu {
+.button-menu__open,
+.button-menu__close {
   display: inline-flex;
   margin: 0;
   padding: 0;
@@ -10,23 +11,22 @@
   }
 }
 
-.button-menu .icon-cross {
-  display: none;
-}
+.button-menu__close {
+  position: absolute;
+  top: 21px;
+  right: 25px;
 
-.button-menu.is-open .icon-cross {
-  display: block;
-}
-
-.button-menu.is-open .icon-menu {
-  display: none;
+  &:hover,
+  &:focus {
+    fill: $accent-text-color;
+  }
 }
 
 .menu-container {
   @media screen and (max-width: 767px) {
-    display: none;
     position: absolute;
     position: fixed;
+    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
@@ -34,27 +34,22 @@
     width: 100vw;
     height: 100vh;
     padding: 48px 40px;
-
-    // background: $white-bg-color;
-    background-color: rgb(33, 238, 238, 0.5);
+    transform: translateX(100%);
+    background-color: $white-bg-color;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
       0px 1px 3px rgba(0, 0, 0, 0.16);
   }
-
-  //   @media screen and (min-width: 768px) {
-  //     display: none;
-  //   }
-
-  &is-open {
-    display: block;
-  }
 }
 
-// .menu-container__contacts {
-//   @media screen and (max-width: 767px) {
-//     margin-top: 302px;
-//   }
-// }
+.menu-container.is-open {
+  transform: translateX(0);
+}
+
+.menu-container__contacts {
+  @media screen and (max-width: 767px) {
+    margin-top: 302px;
+  }
+}
 
 .menu-container {
   @media screen and(min-width:768px) {

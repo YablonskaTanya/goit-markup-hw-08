@@ -2,12 +2,11 @@
   align-items: center;
 
   @media screen and (max-width: 767px) {
-    display: none;
-    // display: flex;
-    // flex-wrap: wrap;
-    // flex-direction: column-reverse;
-    // align-items: flex-start;
-    // gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 32px;
   }
 
   @media screen and (min-width: 768px) {
@@ -37,9 +36,6 @@
   color: $secondary-text-color;
   transition: color 250ms $cubic-brizer;
 
-  // @media screen and (min-width: 768px) {
-
-  // }
   @media screen and (min-width: 1200px) {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -58,33 +54,47 @@
 .communications__icon {
   fill: currentColor;
 
-  // @media screen and (max-width: 767px) {
-  //   display: none;
-  // }
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
 
   @media screen and (min-width: 768px) {
     margin-right: 8px;
   }
 }
 
-// .communications__link--color {
-//   @media screen and (max-width: 767px) {
-//     font-weight: 500;
-//     font-size: 34px;
-//     line-height: 1.18;
-//     letter-spacing: 0.02em;
+.communications__icon-mail {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 14px;
+    height: 10px;
+  }
+}
 
-//     color: $accent-text-color;
-//   }
-// }
+.communications__icon-phone {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 10px;
+    height: 14px;
+  }
+}
 
-// .communications__link--size {
-//   @media screen and (max-width: 767px) {
-//     font-weight: 500;
-//     font-size: 24px;
-//     line-height: 1.17;
-//     letter-spacing: 0.02em;
+.communications__link--color {
+  @media screen and (max-width: 767px) {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 1.18;
+    letter-spacing: 0.02em;
 
-//     color: #757575;
-//   }
-// }
+    color: $accent-text-color;
+  }
+}
+
+.communications__link--size {
+  @media screen and (max-width: 767px) {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+
+    color: #757575;
+  }
+}
