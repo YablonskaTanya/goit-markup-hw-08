@@ -9,17 +9,16 @@
   @media screen and (min-width: 768px) {
     display: none;
   }
+  &:hover,
+  &:focus {
+    fill: $accent-text-color;
+  }
 }
 
 .button-menu__close {
   position: absolute;
   top: 21px;
   right: 25px;
-
-  &:hover,
-  &:focus {
-    fill: $accent-text-color;
-  }
 }
 
 .menu-container {

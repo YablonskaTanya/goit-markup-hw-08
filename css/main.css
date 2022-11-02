@@ -630,14 +630,16 @@ img {
     display: none;
   }
 }
+.button-menu__open:hover, .button-menu__open:focus,
+.button-menu__close:hover,
+.button-menu__close:focus {
+  fill: #2196f3;
+}
 
 .button-menu__close {
   position: absolute;
   top: 21px;
   right: 25px;
-}
-.button-menu__close:hover, .button-menu__close:focus {
-  fill: #2196f3;
 }
 
 @media screen and (max-width: 767px) {
