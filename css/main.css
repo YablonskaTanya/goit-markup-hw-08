@@ -1072,6 +1072,13 @@ img {
   fill: #2196f3;
 }
 
+@media screen and (max-width: 767px) {
+  .client-iteam {
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
+  }
+}
+
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
